@@ -1,0 +1,99 @@
+body {
+  background-image: url("backgroundprofile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 20vh auto 0 auto;
+
+  background-color: rgb(221, 227, 227);
+  border-radius: 5px;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+  color: rgba(86, 9, 121, 1);
+}
+
+.input-group input:focus {
+  outline: 0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid rgba(86, 9, 121, 1);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-btn {
+  cursor: pointer;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#bloodGroup {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#bloodGroup::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+#successMessage {
+  display: none;
+}
+#editButton {
+  font-size: 15px;
+  padding: 3px 0px;
+}
+
+.phone-input {
+  display: flex;
+}

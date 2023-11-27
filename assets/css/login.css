@@ -1,0 +1,83 @@
+body {
+  background-image: url("background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 0;
+  font-family: "Poppins" sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(86, 9, 121, 1);
+}
+#butt {
+  color: white;
+}
+.container {
+  width: 400px;
+  margin: 20vh auto 0 auto;
+  background-color: rgb(172, 151, 240);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid rgba(86, 9, 121, 1);
+}
+
+.input-group input:focus {
+  outline: 0;
+}
+
+button {
+  background-color: rgba(86, 9, 121, 1);
+  color: #fff;
+  border: 1px solid rgba(86, 9, 121, 1);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0px;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
+.input-group .error {
+  color: rgb(242, 18, 18);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.input-group.success input {
+  border-color: #0cc477;
+  color: #0cc477;
+}
+
+.input-group.error input {
+  border-color: rgb(206, 67, 67);
+  color: rgb(206, 67, 67);
+}
+
+.log-in {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
